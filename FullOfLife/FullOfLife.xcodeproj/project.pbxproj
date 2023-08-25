@@ -16,6 +16,9 @@
 		E41852AE2A9766A900FE810E /* FullOfLifeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41852AD2A9766A900FE810E /* FullOfLifeTests.swift */; };
 		E41852B82A9766A900FE810E /* FullOfLifeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41852B72A9766A900FE810E /* FullOfLifeUITests.swift */; };
 		E41852BA2A9766A900FE810E /* FullOfLifeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E41852B92A9766A900FE810E /* FullOfLifeUITestsLaunchTests.swift */; };
+		E42C596F2A98B8FC0041EAC2 /* SpheresViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42C596E2A98B8FC0041EAC2 /* SpheresViewController.swift */; };
+		E42C59712A98B90E0041EAC2 /* AnalysisViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42C59702A98B90E0041EAC2 /* AnalysisViewController.swift */; };
+		E42C59762A98BC7D0041EAC2 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E42C59752A98BC7D0041EAC2 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		E41852B32A9766A900FE810E /* FullOfLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FullOfLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E41852B72A9766A900FE810E /* FullOfLifeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullOfLifeUITests.swift; sourceTree = "<group>"; };
 		E41852B92A9766A900FE810E /* FullOfLifeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FullOfLifeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E42C596E2A98B8FC0041EAC2 /* SpheresViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpheresViewController.swift; sourceTree = "<group>"; };
+		E42C59702A98B90E0041EAC2 /* AnalysisViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalysisViewController.swift; sourceTree = "<group>"; };
+		E42C59752A98BC7D0041EAC2 /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				E47BB5702A97754200AA2D79 /* App */,
-				E47BB5742A97763100AA2D79 /* Main */,
+				E42C59722A98BB290041EAC2 /* TabBar */,
+				E47BB5742A97763100AA2D79 /* MainScreen */,
+				E42C596D2A98B8DC0041EAC2 /* SpheresScreen */,
+				E42C596C2A98B88A0041EAC2 /* AnalysisScreen */,
 				E47BB5732A97759C00AA2D79 /* Models */,
 				E47BB5722A97758F00AA2D79 /* Storyboards */,
 				E47BB5712A97756900AA2D79 /* Resources */,
@@ -123,6 +132,30 @@
 				E41852B92A9766A900FE810E /* FullOfLifeUITestsLaunchTests.swift */,
 			);
 			path = FullOfLifeUITests;
+			sourceTree = "<group>";
+		};
+		E42C596C2A98B88A0041EAC2 /* AnalysisScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E42C59702A98B90E0041EAC2 /* AnalysisViewController.swift */,
+			);
+			path = AnalysisScreen;
+			sourceTree = "<group>";
+		};
+		E42C596D2A98B8DC0041EAC2 /* SpheresScreen */ = {
+			isa = PBXGroup;
+			children = (
+				E42C596E2A98B8FC0041EAC2 /* SpheresViewController.swift */,
+			);
+			path = SpheresScreen;
+			sourceTree = "<group>";
+		};
+		E42C59722A98BB290041EAC2 /* TabBar */ = {
+			isa = PBXGroup;
+			children = (
+				E42C59752A98BC7D0041EAC2 /* TabBarController.swift */,
+			);
+			path = TabBar;
 			sourceTree = "<group>";
 		};
 		E47BB5702A97754200AA2D79 /* App */ = {
@@ -159,12 +192,12 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
-		E47BB5742A97763100AA2D79 /* Main */ = {
+		E47BB5742A97763100AA2D79 /* MainScreen */ = {
 			isa = PBXGroup;
 			children = (
 				E41852972A9766A700FE810E /* MainViewController.swift */,
 			);
-			path = Main;
+			path = MainScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -299,8 +332,11 @@
 			files = (
 				E41852982A9766A700FE810E /* MainViewController.swift in Sources */,
 				E41852942A9766A700FE810E /* AppDelegate.swift in Sources */,
+				E42C59712A98B90E0041EAC2 /* AnalysisViewController.swift in Sources */,
 				E41852962A9766A700FE810E /* SceneDelegate.swift in Sources */,
+				E42C59762A98BC7D0041EAC2 /* TabBarController.swift in Sources */,
 				E418529E2A9766A700FE810E /* FullOfLife.xcdatamodeld in Sources */,
+				E42C596F2A98B8FC0041EAC2 /* SpheresViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
